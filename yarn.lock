@@ -2220,11 +2220,6 @@
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
   integrity sha512-OCutwjDZ4aFS6PB1UZ988C4YgwlBHJd6wCeQqaLdmadZ/7e+w79+hbMUFC1QXDNCmdyoRfAFdm0RypzwR+Qpag==
 
-"@types/estree@0.0.39":
-  version "0.0.39"
-  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
-  integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
-
 "@types/events@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
@@ -2595,11 +2590,6 @@ acorn@^6.0.1, acorn@^6.0.4:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
-
-acorn@^6.0.5:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.0.tgz#b0a3be31752c97a0f7013c5f4903b71a05db6818"
-  integrity sha512-MW/FjM+IvU9CgBzjO3UIPCE2pyEwUsoFl+VGdczOPEdxfGFjuKny/gN54mOuX7Qxmb9Rg9MCn2oKiSUeW+pjrw==
 
 acorn@^6.2.1:
   version "6.4.1"
@@ -11736,14 +11726,12 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.1.2.tgz#8d094b85683b810d0c05a16bd7618cf70d48eba7"
-  integrity sha512-OkdMxqMl8pWoQc5D8y1cIinYQPPLV8ZkfLgCzL6SytXeNA2P7UHynEQXI9tYxuAjAMsSyvRaWnyJDLHMxq0XAg==
-  dependencies:
-    "@types/estree" "0.0.39"
-    "@types/node" "*"
-    acorn "^6.0.5"
+rollup@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.0.4.tgz#23e7b20b4d653ad14db783630b4e44b69c1a0d97"
+  integrity sha512-Z/VZtyIVRBBmtyGQcRJKkwsYXHIVk9EuupprQJ7CKt8DnURQTVF6arptn5Ir/ihY0tZ166O1eTDKoi5quppXRg==
+  optionalDependencies:
+    fsevents "~2.1.2"
 
 rst-selector-parser@^2.2.3:
   version "2.2.3"
